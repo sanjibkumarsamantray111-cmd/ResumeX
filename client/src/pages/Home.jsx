@@ -1,3 +1,6 @@
+
+
+
 import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 
@@ -18,6 +21,8 @@ const Home = () => {
         >
           Create your Resume
         </motion.h1>
+
+        
 
         <motion.button
           whileHover={{ scale: 1.05 }}
@@ -42,9 +47,9 @@ const Home = () => {
   </div>
 
   <div className="space-y-2">
-    <div className="h-1.5 bg-gray-300 rounded w-full"></div>
+    {/* <div className="h-1.5 bg-gray-300 rounded w-full"></div>
     <div className="h-1.5 bg-gray-300 rounded w-3/4"></div>
-    <div className="h-1.5 bg-gray-300 rounded w-1/2"></div>
+    <div className="h-1.5 bg-gray-300 rounded w-1/2"></div> */}
   </div>
 </motion.div>
 
@@ -121,14 +126,14 @@ const Home = () => {
 <div className="mt-10 grid grid-cols-2 gap-4">
   <div className="bg-white text-black p-4 rounded-xl">
     <h4 className="font-semibold text-sm mb-2">Minimal</h4>
-    <div className="h-2 bg-gray-300 rounded mb-2"></div>
-    <div className="h-2 bg-gray-300 rounded w-3/4"></div>
+    {/* <div className="h-2 bg-gray-300 rounded mb-2"></div>
+    <div className="h-2 bg-gray-300 rounded w-3/4"></div> */}
   </div>
 
   <div className="bg-white text-black p-4 rounded-xl">
     <h4 className="font-semibold text-sm mb-2">Modern</h4>
-    <div className="h-2 bg-gray-300 rounded mb-2"></div>
-    <div className="h-2 bg-gray-300 rounded w-2/3"></div>
+    {/* <div className="h-2 bg-gray-300 rounded mb-2"></div>
+    <div className="h-2 bg-gray-300 rounded w-2/3"></div> */}
   </div>
 </div>
 
@@ -185,13 +190,13 @@ const Home = () => {
     <div className="w-8 h-8 bg-black rounded-full"></div>
     <div>
       <p className="text-xs font-semibold">John Doe</p>
-      <p className="text-[10px] text-gray-500">Frontend Dev</p>
+      <p className="text-[10px] text-gray-500">Frontend Developer</p>
     </div>
   </div>
 
   <div className="space-y-2">
-    <div className="h-1.5 bg-gray-300 rounded w-full"></div>
-    <div className="h-1.5 bg-gray-300 rounded w-3/4"></div>
+    {/* <div className="h-1.5 bg-gray-300 rounded w-full"></div>
+    <div className="h-1.5 bg-gray-300 rounded w-3/4"></div> */}
   </div>
 </motion.div>
 
